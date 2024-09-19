@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-display: roboto;
+}
+
+.menu-content{
+	width: 100%;
+	background: black;
+	height: 20vh;
+	position: fixed;
+	z-index: 100;
+}
+.titulo{
+	float: right;
+}
+
+.baner-1 p{
+	font-size: 20px;
+	align-content: justify;
+}
+
+.menu{
+	float: left;
+	height: 20vh;
+	align-content: center;
+	margin-left: 50px;
+}
+.menu-cuerpo a{
+	font-size: 25px;
+	margin: 20px;
+	color: #ff6614;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+span{
+	margin: 5px;
+}
+
+.bajo {
+	display: flex;
+	background:#ff6614;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.texto-footer{
+	margin: 5px;
+	font-weight: 600;
+}
+
+.texto-baner{
+	position: absolute;
+	margin: 100px;
+	padding: 100px;
+	color: whitesmoke;
+	width: 55%;
+}
+
+.contenido-body{
+	padding-top: 100px;
+	background: black;
+}
+
+.banner-2{
+	display: flex;
+}
+
+.contedio{
+	background:#ff6614;
+	color: white;
+	margin: 80px;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: justify-all;
+}
+
+.contedio div{
+	font-size: 30px;
+	border-bottom: 4px solid white;
+	font-weight: 500;
+	
+}
+
+.contedio span{
+	font-size: 25px;
+	font-weight: 700;
+	align-content: center;
+}
